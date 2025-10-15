@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryant Sunday | Artist, Singer-Songwriter & Actor</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0e0e0e;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 1.3rem;
+      color: #aaa;
+    }
+    p {
+      max-width: 600px;
+      margin: 1em auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5em;
+      padding: 12px 30px;
+      border: 2px solid #f2f2f2;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #f2f2f2;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #f2f2f2;
+      color: #111;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #888;
+      font-size: 0.9em;
+    }
+    .contact {
+      margin-top: 2em;
+    }
+    .contact a {
+      color: #f2f2f2;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bryant Sunday</h1>
+    <h2>Artist • Singer-Songwriter • Actor</h2>
+    <p>
+      I am a Nigerian singer-songwriter and actor, ready to learn, create, and better myself in many ways.
+      I want you to listen to my songs and join me on this creative journey.
+    </p>
+    <a href="https://about.me/bryantsunday" class="btn" target="_blank">View My Work</a>
+  </header>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact">
+      📞 <strong>Phone:</strong> <a href="tel:09021206422">09021206422</a><br>
+      🎵 <strong>TikTok:</strong> <a href="https://tiktok.com/@bryantsunday" target="_blank">@bryantsunday</a>
+    </p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Bryant Sunday — All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
